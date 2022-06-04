@@ -9,4 +9,4 @@ def Message(title,msg,type="error"):
         messagebox.showinfo(title,msg)
     else:
         messagebox.showerror("MessageBoxSender error", 'Value error at "Message" function: Invalid value for "type"\n\nUsable values are:\n"error"\n"info"\n"warning"')
-Message(input("Input the message title\n"),input("Input the message title\n"),input("Input the message type\n"))
+Message(input("Input the message title\n"),input("Input the message text\n"),input("Input the message type\n"))
